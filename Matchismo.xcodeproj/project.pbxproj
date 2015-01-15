@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF87EB631A670C0D00A5C99E /* ScoreBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = AF87EB621A670C0D00A5C99E /* ScoreBoard.m */; };
 		AFC9F5721A5F379B00AB0545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC9F5711A5F379B00AB0545 /* main.m */; };
 		AFC9F5751A5F379B00AB0545 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC9F5741A5F379B00AB0545 /* AppDelegate.m */; };
 		AFC9F5781A5F379B00AB0545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC9F5771A5F379B00AB0545 /* ViewController.m */; };
 		AFC9F57B1A5F379B00AB0545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC9F5791A5F379B00AB0545 /* Main.storyboard */; };
-		AFC9F57D1A5F379B00AB0545 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC9F57C1A5F379B00AB0545 /* Images.xcassets */; };
 		AFC9F5801A5F379B00AB0545 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFC9F57E1A5F379B00AB0545 /* LaunchScreen.xib */; };
 		AFC9F58C1A5F379B00AB0545 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC9F58B1A5F379B00AB0545 /* MatchismoTests.m */; };
+		AFC9F5981A5F3C6300AB0545 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC9F5971A5F3C6300AB0545 /* Images.xcassets */; };
+		AFC9F59A1A601F7100AB0545 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC9F5991A601F7100AB0545 /* Card.m */; };
+		AFE5CE521A60553500D72CCD /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE5CE511A60553500D72CCD /* Deck.m */; };
+		AFE5CE541A606CDC00D72CCD /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE5CE531A606CDC00D72CCD /* PlayingCard.m */; };
+		AFE5CE581A618BE700D72CCD /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE5CE571A618BE700D72CCD /* PlayingCardDeck.m */; };
+		AFE5CE5E1A61B3DA00D72CCD /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE5CE5D1A61B3DA00D72CCD /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF87EB611A670C0D00A5C99E /* ScoreBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreBoard.h; sourceTree = "<group>"; };
+		AF87EB621A670C0D00A5C99E /* ScoreBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreBoard.m; sourceTree = "<group>"; };
 		AFC9F56C1A5F379B00AB0545 /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC9F5701A5F379B00AB0545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC9F5711A5F379B00AB0545 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,11 +43,21 @@
 		AFC9F5761A5F379B00AB0545 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AFC9F5771A5F379B00AB0545 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AFC9F57A1A5F379B00AB0545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AFC9F57C1A5F379B00AB0545 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AFC9F57F1A5F379B00AB0545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AFC9F5851A5F379B00AB0545 /* MatchismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC9F58A1A5F379B00AB0545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC9F58B1A5F379B00AB0545 /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
+		AFC9F5971A5F3C6300AB0545 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../.Trash/Images.xcassets; sourceTree = "<group>"; };
+		AFC9F5991A601F7100AB0545 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		AFC9F59B1A601FA500AB0545 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		AFE5CE501A60552900D72CCD /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		AFE5CE511A60553500D72CCD /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		AFE5CE531A606CDC00D72CCD /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		AFE5CE551A606CE700D72CCD /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		AFE5CE561A618BD800D72CCD /* PlayingCardDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		AFE5CE571A618BE700D72CCD /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		AFE5CE5C1A61B3DA00D72CCD /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = ../CardMatchingGame.h; sourceTree = "<group>"; };
+		AFE5CE5D1A61B3DA00D72CCD /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = ../CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +99,11 @@
 		AFC9F56E1A5F379B00AB0545 /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
-				AFC9F5731A5F379B00AB0545 /* AppDelegate.h */,
-				AFC9F5741A5F379B00AB0545 /* AppDelegate.m */,
 				AFC9F5761A5F379B00AB0545 /* ViewController.h */,
 				AFC9F5771A5F379B00AB0545 /* ViewController.m */,
+				AFE5CE591A61A80E00D72CCD /* Model */,
 				AFC9F5791A5F379B00AB0545 /* Main.storyboard */,
-				AFC9F57C1A5F379B00AB0545 /* Images.xcassets */,
+				AFC9F5971A5F3C6300AB0545 /* Images.xcassets */,
 				AFC9F57E1A5F379B00AB0545 /* LaunchScreen.xib */,
 				AFC9F56F1A5F379B00AB0545 /* Supporting Files */,
 			);
@@ -96,6 +113,8 @@
 		AFC9F56F1A5F379B00AB0545 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AFC9F5731A5F379B00AB0545 /* AppDelegate.h */,
+				AFC9F5741A5F379B00AB0545 /* AppDelegate.m */,
 				AFC9F5701A5F379B00AB0545 /* Info.plist */,
 				AFC9F5711A5F379B00AB0545 /* main.m */,
 			);
@@ -117,6 +136,25 @@
 				AFC9F58A1A5F379B00AB0545 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFE5CE591A61A80E00D72CCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFE5CE5C1A61B3DA00D72CCD /* CardMatchingGame.h */,
+				AFE5CE5D1A61B3DA00D72CCD /* CardMatchingGame.m */,
+				AF87EB611A670C0D00A5C99E /* ScoreBoard.h */,
+				AF87EB621A670C0D00A5C99E /* ScoreBoard.m */,
+				AFC9F59B1A601FA500AB0545 /* Card.h */,
+				AFC9F5991A601F7100AB0545 /* Card.m */,
+				AFE5CE551A606CE700D72CCD /* PlayingCard.h */,
+				AFE5CE531A606CDC00D72CCD /* PlayingCard.m */,
+				AFE5CE501A60552900D72CCD /* Deck.h */,
+				AFE5CE511A60553500D72CCD /* Deck.m */,
+				AFE5CE561A618BD800D72CCD /* PlayingCardDeck.h */,
+				AFE5CE571A618BE700D72CCD /* PlayingCardDeck.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +206,7 @@
 				TargetAttributes = {
 					AFC9F56B1A5F379B00AB0545 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = THP5EV5EJ9;
 					};
 					AFC9F5841A5F379B00AB0545 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -199,9 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC9F5981A5F3C6300AB0545 /* Images.xcassets in Resources */,
 				AFC9F57B1A5F379B00AB0545 /* Main.storyboard in Resources */,
 				AFC9F5801A5F379B00AB0545 /* LaunchScreen.xib in Resources */,
-				AFC9F57D1A5F379B00AB0545 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +258,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFE5CE541A606CDC00D72CCD /* PlayingCard.m in Sources */,
+				AF87EB631A670C0D00A5C99E /* ScoreBoard.m in Sources */,
+				AFE5CE521A60553500D72CCD /* Deck.m in Sources */,
 				AFC9F5781A5F379B00AB0545 /* ViewController.m in Sources */,
 				AFC9F5751A5F379B00AB0545 /* AppDelegate.m in Sources */,
+				AFE5CE5E1A61B3DA00D72CCD /* CardMatchingGame.m in Sources */,
+				AFE5CE581A618BE700D72CCD /* PlayingCardDeck.m in Sources */,
 				AFC9F5721A5F379B00AB0545 /* main.m in Sources */,
+				AFC9F59A1A601F7100AB0545 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +457,7 @@
 				AFC9F5911A5F379B00AB0545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFC9F5921A5F379B00AB0545 /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +466,7 @@
 				AFC9F5941A5F379B00AB0545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
